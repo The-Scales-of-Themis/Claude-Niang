@@ -30,7 +30,7 @@
 
 | | 本仓库（原版） | 社区维护版 |
 |---|---|---|
-| 仓库 | Gryphus-Triune/Claude-Niang | [Cottins-Vanilla/Claude-Niang-Community](https://github.com/Cottins-Vanilla/Claude-Niang-Community) |
+| 仓库 | The-Scales-of-Themis/Claude-Niang（原 Gryphus-Triune/Claude-Niang） | [Cottins-Vanilla/Claude-Niang-Community](https://github.com/Cottins-Vanilla/Claude-Niang-Community) |
 | 最新版本 | 1.3.3（2026-10-29），不再更新 | **2.0.0**（2026-11-24），后续版本都在这里发布 |
 | 下载 | 下文「下载与安装」（旧版） | [Releases 最新版](https://github.com/Cottins-Vanilla/Claude-Niang-Community/releases/latest) |
 | 问题反馈 | 新问题请提交到社区维护版 | [提交反馈](https://github.com/Cottins-Vanilla/Claude-Niang-Community/issues/new/choose) |
