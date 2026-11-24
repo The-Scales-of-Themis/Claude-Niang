@@ -6,10 +6,18 @@
   <p>
     <a href="https://github.com/Gryphus-Triune/Claude-Niang/releases/tag/v1.3.3"><img src="https://img.shields.io/badge/Release-v1.3.3-D97757" alt="当前版本 1.3.3"></a>
     <a href="https://github.com/Gryphus-Triune/Claude-Niang/actions/workflows/ci.yml"><img src="https://github.com/Gryphus-Triune/Claude-Niang/actions/workflows/ci.yml/badge.svg?branch=main" alt="自动检查状态"></a>
+    <a href="https://github.com/Cottins-Vanilla/Claude-Niang-Community/releases/latest"><img src="https://img.shields.io/badge/%E6%9C%80%E6%96%B0%E7%89%88%20%C2%B7%20%E7%A4%BE%E5%8C%BA%E7%BB%B4%E6%8A%A4%E7%89%88-v2.0.0-D97757" alt="最新版本：社区维护版 2.0.0"></a>
     <img src="https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4" alt="面向 Windows 10 / 11">
   </p>
-  <p><a href="https://github.com/Gryphus-Triune/Claude-Niang/releases/download/v1.3.3/claude-niang-v1.3.3-windows.zip"><strong>下载 Windows 完整包</strong></a> · <a href="#下载与安装">安装说明</a> · <a href="https://github.com/Gryphus-Triune/Claude-Niang/releases/tag/v1.3.3">版本更新</a> · <a href="#常见问题">常见问题</a> · <a href="https://github.com/Gryphus-Triune/Claude-Niang/issues/new/choose">反馈问题</a></p>
+  <p><a href="https://github.com/Cottins-Vanilla/Claude-Niang-Community/releases/latest"><strong>⬇ 下载最新版（社区维护版 2.0.0）</strong></a> · <a href="#最新版本社区维护版">升级说明</a> · <a href="https://github.com/Gryphus-Triune/Claude-Niang/releases/tag/v1.3.3">旧版 1.3.3</a> · <a href="#常见问题">常见问题</a> · <a href="https://github.com/Cottins-Vanilla/Claude-Niang-Community/issues/new/choose">反馈问题</a></p>
 </div>
+
+> [!IMPORTANT]
+> **Claude 娘的后续更新已转到社区维护版：[Cottins-Vanilla/Claude-Niang-Community](https://github.com/Cottins-Vanilla/Claude-Niang-Community)**
+>
+> 本仓库停在 **1.3.3**，之后的新版本只在社区维护版发布，目前最新是 **2.0.0**。新用户请直接安装社区维护版；已经装了 1.3.3 的用户可以原地升级，设置和登录都会保留（[升级步骤](#最新版本社区维护版)）。
+>
+> **[⬇ 下载最新版](https://github.com/Cottins-Vanilla/Claude-Niang-Community/releases/latest)** · [社区维护版首页](https://github.com/Cottins-Vanilla/Claude-Niang-Community) · [2.0.0 更新内容](https://github.com/Cottins-Vanilla/Claude-Niang-Community/releases/tag/v2.0.0) · [反馈问题](https://github.com/Cottins-Vanilla/Claude-Niang-Community/issues/new/choose)
 
 <p align="center">
   <a href="docs/screenshot.png"><img src="docs/screenshot.png" alt="Claude 娘原生界面：角色上方的气泡显示 5 小时、每周剩余额度和重置时间；图中为示例数据" width="378"></a>
@@ -17,6 +25,33 @@
 <p align="center"><sub>原生界面预览，图中为示例数据。额度来自最近一次手动读取；点击图片可查看原图。</sub></p>
 
 **由你决定何时读取。** 启动、恢复窗口、登录完成和自动语录都不会查询额度。读取本身不调用模型，无需 API Key；音乐只在本机分析，不保存也不上传。**非 Anthropic 官方产品。**
+
+## 最新版本：社区维护版
+
+| | 本仓库（原版） | 社区维护版 |
+|---|---|---|
+| 仓库 | Gryphus-Triune/Claude-Niang | [Cottins-Vanilla/Claude-Niang-Community](https://github.com/Cottins-Vanilla/Claude-Niang-Community) |
+| 最新版本 | 1.3.3（2026-10-29），不再更新 | **2.0.0**（2026-11-24），后续版本都在这里发布 |
+| 下载 | 下文「下载与安装」（旧版） | [Releases 最新版](https://github.com/Cottins-Vanilla/Claude-Niang-Community/releases/latest) |
+| 问题反馈 | 新问题请提交到社区维护版 | [提交反馈](https://github.com/Cottins-Vanilla/Claude-Niang-Community/issues/new/choose) |
+
+**2.0.0 相比 1.3.3 的主要变化**
+
+- **新增「用量管理」窗口**（右键角色 → 账户总览）：
+  - 账户总览：每个组织一张额度卡片，本机 Claude Code 今日用量、会话、缓存命中和参考费用，最近 14 天走势。
+  - 用量账本：按时间、模型、项目、来源、速度、入口筛选；Token 活动图和全年热力图；模型和项目分布；会话明细可搜索，可导出 CSV / JSON。
+  - 参考费用按 Claude API 公开价格估算，订阅不按 Token 计费，仅供参考。只读取本机 Claude Code 会话记录里的 Tokens 数字，不读取对话内容。
+- **修复杀毒软件误报**：计划任务正常时不再在「启动」文件夹创建快捷方式，并移除本安装位置留下的旧快捷方式。这个快捷方式会被部分杀毒软件按外形误报为 LNK 木马下载器（如 TrojanDownloader/LNK.Agent）。
+- 其余功能和 1.3.3 相同。完整更新记录见社区维护版的 [CHANGELOG](https://github.com/Cottins-Vanilla/Claude-Niang-Community/blob/main/CHANGELOG.md)。
+
+**从 1.3.3 升级到社区维护版**
+
+1. 运行旧安装目录里的「停用Claude娘.cmd」。
+2. 从[社区维护版 Releases](https://github.com/Cottins-Vanilla/Claude-Niang-Community/releases/latest) 下载 Windows 完整包，**覆盖到原来的同一个文件夹**，保留 `claude-niang\installation.json`。
+3. 运行「安装Claude娘.cmd」。设置和登录保存在 `%LOCALAPPDATA%\ClaudeNiang`，升级后继续使用。
+4. 装过 Claude 桌面扩展的，再双击一次新版的 `.mcpb`。
+
+两个版本使用同一个数据目录和同一份开机启动登记，**不要同时安装原版和社区维护版**。
 
 ## 可以做什么
 
@@ -31,6 +66,9 @@
 Free 或部分组织可能没有额度窗口；挂件无法提供接口没有返回的数据。今日观测统计是本机采样估算，不是完整账单、消息数或 token 数。
 
 ## 下载与安装
+
+> [!NOTE]
+> 以下是**原版 1.3.3** 的下载与安装说明，仅供需要旧版的用户参考。最新版请到[社区维护版 Releases](https://github.com/Cottins-Vanilla/Claude-Niang-Community/releases/latest) 下载，安装方法相同。
 
 **当前程序版本：1.3.3** · [版本说明](https://github.com/Gryphus-Triune/Claude-Niang/releases/tag/v1.3.3) · [完整更新记录](CHANGELOG.md)
 
@@ -166,9 +204,11 @@ claude.ai 的网页接口不是公开 API，随时可能变化而失效。请遵
 | 旧版开机后出现空白 PowerShell 窗口 | 更新后双击一次“打开Claude娘.cmd”，重新登记隐藏启动。 |
 | 挂件消失、读取持续失败或音乐律动停止 | 查看 `%LOCALAPPDATA%\ClaudeNiang\state\logs\claude-niang.log`。 |
 
-仍有问题，请[提交反馈](https://github.com/Gryphus-Triune/Claude-Niang/issues/new/choose)，附上挂件版本、Windows 与 Node.js 版本、复现步骤及错误提示。发布日志前请去掉用户名、个人路径、邮箱和组织信息，勿上传 Cookie、登录文件或浏览器配置目录。
+仍有问题，请到社区维护版[提交反馈](https://github.com/Cottins-Vanilla/Claude-Niang-Community/issues/new/choose)，附上挂件版本、Windows 与 Node.js 版本、复现步骤及错误提示。发布日志前请去掉用户名、个人路径、邮箱和组织信息，勿上传 Cookie、登录文件或浏览器配置目录。
 
 ## 开发与贡献
+
+后续开发在[社区维护版](https://github.com/Cottins-Vanilla/Claude-Niang-Community)进行，欢迎到那里提交问题和 PR。
 
 测试、构建和干净打包的方法见 [CONTRIBUTING.md](CONTRIBUTING.md)。工作流配置在 `.github/workflows/ci.yml`；实际运行结果以 [GitHub Actions](https://github.com/Gryphus-Triune/Claude-Niang/actions) 为准。
 

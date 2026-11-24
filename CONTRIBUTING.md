@@ -1,5 +1,8 @@
 # 参与开发
 
+> [!IMPORTANT]
+> Claude 娘的后续开发在[社区维护版 Cottins-Vanilla/Claude-Niang-Community](https://github.com/Cottins-Vanilla/Claude-Niang-Community)进行。新的问题、功能建议和 PR 请提交到那里；本仓库停在 1.3.3。
+
 使用 Node.js 20 或更新（建议官网 LTS 版）和 Windows PowerShell 5.1。运行测试不需要登录 Claude，也不会访问真实 Claude 账号。
 
 ## 运行检查

@@ -2,6 +2,9 @@
 
 每个程序版本使用一个正式标签 `vX.Y.Z`。以下按程序版本汇总功能与修复；同一版本的页面和发布说明整理归入原版本。
 
+> [!IMPORTANT]
+> 1.3.3 之后的版本在[社区维护版](https://github.com/Cottins-Vanilla/Claude-Niang-Community)发布，最新是 [2.0.0](https://github.com/Cottins-Vanilla/Claude-Niang-Community/releases/tag/v2.0.0)，更新内容见社区维护版的 [CHANGELOG](https://github.com/Cottins-Vanilla/Claude-Niang-Community/blob/main/CHANGELOG.md)。
+
 ## 1.3.3 — 2026-10-29
 
 修复登录切换后的旧额度、自定义语录保存和余额缓存等边界问题。

@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: 最新版本与问题反馈（社区维护版）
+    url: https://github.com/Cottins-Vanilla/Claude-Niang-Community/issues/new/choose
+    about: 1.3.3 之后的版本在社区维护版发布，新问题请到那里提交。
   - name: 安装说明与常见问题
     url: https://github.com/Gryphus-Triune/Claude-Niang#常见问题
     about: 先查看常见问题；仍无法解决时，请选择对应的问题模板。
