@@ -9,13 +9,13 @@
     <a href="https://github.com/Cottins-Vanilla/Claude-Niang-Community/releases/latest"><img src="https://img.shields.io/badge/%E6%9C%80%E6%96%B0%E7%89%88%20%C2%B7%20%E7%A4%BE%E5%8C%BA%E7%BB%B4%E6%8A%A4%E7%89%88-v2.0.0-D97757" alt="最新版本：社区维护版 2.0.0"></a>
     <img src="https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4" alt="面向 Windows 10 / 11">
   </p>
-  <p><a href="https://github.com/Cottins-Vanilla/Claude-Niang-Community/releases/latest"><strong>⬇ 下载最新版（社区维护版 2.0.0）</strong></a> · <a href="#最新版本社区维护版">升级说明</a> · <a href="https://github.com/Gryphus-Triune/Claude-Niang/releases/tag/v1.3.3">旧版 1.3.3</a> · <a href="#常见问题">常见问题</a> · <a href="https://github.com/Cottins-Vanilla/Claude-Niang-Community/issues/new/choose">反馈问题</a></p>
+  <p><a href="https://github.com/Cottins-Vanilla/Claude-Niang-Community/releases/latest"><strong>⬇ 下载最新版（社区维护版）</strong></a> · <a href="#最新版本社区维护版">升级说明</a> · <a href="https://github.com/Gryphus-Triune/Claude-Niang/releases/tag/v1.3.3">旧版 1.3.3</a> · <a href="#常见问题">常见问题</a> · <a href="https://github.com/Cottins-Vanilla/Claude-Niang-Community/issues/new/choose">反馈问题</a></p>
 </div>
 
 > [!IMPORTANT]
 > **Claude 娘的后续更新已转到社区维护版：[Cottins-Vanilla/Claude-Niang-Community](https://github.com/Cottins-Vanilla/Claude-Niang-Community)**
 >
-> 本仓库停在 **1.3.3**，之后的新版本只在社区维护版发布，目前最新是 **2.0.0**。新用户请直接安装社区维护版；已经装了 1.3.3 的用户可以原地升级，设置和登录都会保留（[升级步骤](#最新版本社区维护版)）。
+> 本仓库停在 **1.3.3**，之后的新版本只在社区维护版发布。新用户请直接安装社区维护版；已经装了 1.3.3 的用户可以原地升级，设置和登录都会保留（[升级步骤](#最新版本社区维护版)）。
 >
 > **[⬇ 下载最新版](https://github.com/Cottins-Vanilla/Claude-Niang-Community/releases/latest)** · [社区维护版首页](https://github.com/Cottins-Vanilla/Claude-Niang-Community) · [2.0.0 更新内容](https://github.com/Cottins-Vanilla/Claude-Niang-Community/releases/tag/v2.0.0) · [反馈问题](https://github.com/Cottins-Vanilla/Claude-Niang-Community/issues/new/choose)
 
